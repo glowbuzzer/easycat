@@ -5,9 +5,6 @@
 
 #include "EasyCAT.h"
 
-//#define LOBYTE(x) ((unsigned char) ((x) & 0xff))
-//#define HIBYTE(x) ((unsigned char) ((x) >> 8 & 0xff))
-
 EasyCAT EASYCAT;
 
 unsigned long counter;
