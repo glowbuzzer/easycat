@@ -3,7 +3,7 @@ Interrupt based bus sync with EasyCAT
 
 This example uses wiringPi for gpio interrupt handling. Run `sudo apt-get install wiringpi`.
 
-This example uses the bcm2835 library to comunicate with the SPI.
+This example uses the bcm2835 library to comunicate with SPI.
 The reference web site is: http://www.airspayce.com/mikem/bcm2835/
 
 Download the library: http://www.airspayce.com/mikem/bcm2835/bcm2835-1.50.tar.gz, then:
@@ -26,7 +26,7 @@ cd easycat
 gcc -o ecat ecat.cpp EasyCAT.cpp -l bcm2835 -lwiringPi
 ```
 
-You need to compile/deploy the custom ESI `EasyCAT_DC_modified.xml`.
+You need to deploy the custom ESI `EasyCAT_DC_modified.xml` to the easycat LAN9252.
 
 To run the example:
 
