@@ -35,5 +35,5 @@ sudo ./ecat
 ```
 
 The example simply increments a 32-bit counter. An app in codesys reads this value and compares with its own 
-internal counter to detect any jitter. On an unmodified Raspbian we see this is around 5ms dropped every 10000ms, 
-or 0.05% lost.
+internal counter to detect any jitter. On an unmodified Raspbian we see this is around 5 cycles missed every 10000ms, 
+or 0.05% missed cycles.
