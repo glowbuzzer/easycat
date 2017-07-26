@@ -21,7 +21,8 @@ cd ..
 Now compile the project from inside the project directory:
 
 ```
-cd EasyCAT_Test
+git clone https://github.com/glowbuzzer/easycat.git
+cd easycat
 gcc -o ecat ecat.cpp EasyCAT.cpp -l bcm2835 -lwiringPi
 ```
 
